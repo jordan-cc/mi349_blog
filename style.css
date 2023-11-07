@@ -14,6 +14,10 @@ img{
     max-width: 50vw;
     
 }
+.img-container{
+    padding-top: 100px;
+    float: right;
+}
 
 header{
     position: sticky;
@@ -32,6 +36,15 @@ h1{
     font-size: 3em;
     margin: 0;
 }
+div{
+    background-color: rgb(49, 47, 45)  ;
+    margin:auto;
+    
+}
+#author{
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 #blog{
     border-top: 1px dotted #ffffff;
@@ -46,11 +59,26 @@ h1{
 .blog2-post{
     flex: 1;
 }
+ul{
+    list-style-type: none;
+
+}
+li{
+    margin: auto;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(35, 33, 44);
+}
+
+#caption{
+float: right;
+}
 
 
 .img-container{
     height: auto;
     width: auto;
     display: flex;
+    
     
 }
